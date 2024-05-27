@@ -1,0 +1,22 @@
+<html>
+    <head>
+    <title>E CART LOGIN PAGE </title>
+    <script language="javascript">
+        function hello()
+        {
+    document.write("YOUR LOGIN FORM IS SUCCESSFULLY SAVED INTO THE DATABASE");
+        }
+    </script>
+    </head>
+<body background="login_page_bg.jpg"><br><br><br>
+    <form>
+    <h1 align="center" ><font color="white">User LOGIN </h1></font>
+    <br><br><br>
+    <center><font color="white" size="20"> Enter your name <br><input type="text"  size="20" maxlength="10" ><br><br>
+    Enter your password  <br><input type="password"  size="20" maxlength="10"  ><br>
+    <input type="submit" value="save" name="s" size="20" onclick="hello()">
+    <input type="reset"  value="clear" name="q" size="20">
+    </font></center>
+    </form>
+</body>
+</html>
